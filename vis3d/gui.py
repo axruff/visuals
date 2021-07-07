@@ -545,7 +545,7 @@ class MultiImageDisplay(object):
                 #min_max = np.percentile(npa.flatten(), [2,98])
                 min_max = [np.min(npa.flatten()), np.max(npa.flatten())]
                 #print('Real max', np.max(npa.flatten()))
-                print('Min max:', min_max)
+                #print('Min max:', min_max)
                 wl_range.append((min_max[0], min_max[1]))
                 if not window_level_list:
                     wl_init.append(wl_range[-1])
